@@ -1,0 +1,16 @@
+print("Vehicle Fuel Consumption Calculator")
+
+x = float(input("Enter the Fuel Consumption of Your Vehicle per 100 Km (Liters): "))
+y = float(input("Enter the Price per Liter of Fuel Used: "))
+z = 100
+
+print("Fuel Consumption per Kilometer (Currency): ", (x * y) / z)
+
+a = float(input("Fuel Cost per Kilometer (Currency): "))
+b = int(input("Distance (Km): "))
+
+print("Calculating...")
+
+print("Total Amount to Pay (Currency): ", int(a * b))
+
+print("Have a Safe Journey...")
